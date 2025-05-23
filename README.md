@@ -1,14 +1,25 @@
-# Ubuntu System Management Scripts
+# My Linux Dotfiles
+
+Welcome to my personal Linux dotfiles repository! This collection is designed to streamline my workflow, enhance system security, and provide useful administration utilities on Debian-based systems like Ubuntu.
 
 ---
 
-## Overview
+## 🚀 Overview
 
-This repository serves as a centralized collection of Bash scripts designed to simplify and automate common administrative tasks on Ubuntu Linux systems. Whether you're managing users, performing system maintenance, enhancing security, or troubleshooting network issues, you'll find a script here to help streamline your workflow.
+This repository contains my essential configuration files and a handy script for system management. Key components include:
 
-The goal is to provide reliable, easy-to-understand, and modular scripts that can be adapted to various Ubuntu server and desktop environments.
+* **`linux-user-onleave-manager`**: A simple Bash script to manage Linux user accounts (enable/disable) for scenarios like holidays or extended absences.
+* **`common-password` configuration**: A hardened PAM configuration for `/etc/pam.d/common-password` to enforce strong password quality policies system-wide.
 
 ---
 
-1. [Manage users on leave](https://github.com/godarayudhvir/ubuntu-scripts/tree/main/linux-user-onleave-manager)
-2. [Set Password policy for users in a group](#) [coming-soon]
+## 📂 Repository Structure
+
+UBUNTU-DOT-FILES
+├── configs\pam.d
+│   └── common-password
+├── linux-user-onleave-manager/
+│   ├── lock_onleave_accounts.sh
+│   ├── Readme.md
+│   └── unlock_and_remove_from_onleave.sh
+└── README.md
