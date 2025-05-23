@@ -15,9 +15,10 @@ This repository contains my essential configuration files and a handy script for
 
 ## 📂 Repository Structure
 
-UBUNTU-DOT-FILES
-├── configs\pam.d
-│   └── common-password
+UBUNTU-DOT-FILES/
+├── configs/
+│   └── pam.d/
+│       └── common-password
 ├── linux-user-onleave-manager/
 │   ├── lock_onleave_accounts.sh
 │   ├── Readme.md
